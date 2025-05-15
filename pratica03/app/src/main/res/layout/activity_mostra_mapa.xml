@@ -9,8 +9,8 @@
     tools:context=".MostraMapaActivity">
 
     <Button
-        android:layout_width="130"
-        android:layout_height="50"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
         android:id="@+id/Dpi"
         android:text="DPI"
         android:layout_centerHorizontal="true"
