@@ -34,4 +34,11 @@
         android:layout_toRightOf="@+id/Dpi"
         android:text="Viçosa" />
 
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/TeofiloOtoni"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
 </RelativeLayout>

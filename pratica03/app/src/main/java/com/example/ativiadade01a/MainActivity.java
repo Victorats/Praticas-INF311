@@ -32,22 +32,7 @@ public class MainActivity extends ListActivity {
         if(aux.equals("Fechar aplicativo")){
             finish();
         }
-        Pair<Double, Double> coord = retornaCoordernada(aux);
-        it.putExtra("x",coord.first);
-        it.putExtra("y",coord.second);
+        it.putExtra("option", aux);
         startActivity(it);
-    }
-
-    protected android.util.Pair<Double, Double> retornaCoordernada(String local){
-        if(local == "Minha casas em Teofilo Otoni"){
-            return new Pair<>(-17.854417, -41.508195);
-        }
-        else if(local == "Minha casa em Viçosa"){
-            return new Pair<>(-20.755195831967093, -42.876022587753255);
-        }
-        else if(local == "DPI UFV"){
-            return new Pair<>(-20.76482710197161, -42.86845007536529);
-        }
-        return null;
     }
 }
